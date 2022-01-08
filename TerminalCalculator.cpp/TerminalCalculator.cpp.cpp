@@ -4,6 +4,7 @@
 #include <iostream>
 using namespace std;
 
+// This method is responsible for menu showing. 
 void menu() {
 	cout << endl;
 	cout << "1. Addition" << endl;
@@ -14,6 +15,7 @@ void menu() {
 	cout << endl;
 }
 
+//This is main method - required for execution
 int main()
 {
 	bool work = true;
